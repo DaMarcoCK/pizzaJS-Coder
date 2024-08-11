@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzeria</title>
+    <link type="image/ico" href="" rel="shortcut icon">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://bootswatch.com/5/lux/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="envoltorio" class="container-fluid">
+        <!--header-->
+        <header class="row">
+            <nav class="navbar navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://images.vexels.com/media/users/3/128435/isolated/lists/3bba8cf18c7b31717c98231e7d6e736e-logotipo-de-pizza-italiana.png"
+                            alt="" width="30" class="d-inline-block align-text-top">
+                        Pizzeria
+                        <section id="BarrasHeader" class="BarrasIT row">
+                            <span class="BarrasIT01 col">
+                            </span>
+                            <span class="BarrasIT02 col">
+                            </span>
+                            <span class="BarrasIT03 col">
+                            </span>
+                        </section>
+                    </a>
+                    <!-- Index de menus -->
+                    <div class="menu-compras">
+                        <span id="cant-carrito" class="cant-carrito justify-content-end">0</span>
+                        <img type="button" class="btn-carrito myButton" data-bs-toggle="modal" data-bs-target="#miModal"
+                            href='' src="images/icono_carrito01.svg">
+                    </div>
+                </div>
+                <section id="BarrasContain" class="BarrasContain container-fluid">
+                    <!-- Breadcrumps -->
+                </section>
+            </nav>
+            <!-- Modal / Sidebar -->
+            <div class="modal fade" id="miModal" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitle">Mi Carrito</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                        </div>
+                        <div class="modal-footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Banner Carousel-->
+            <div id="demoSlider" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- Carrusel -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/banner_pc01.jpg" class="overlay-img d-block w-100"
+                                alt="Oferta 01 del banner">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner_pc02.jpg" class="overlay-img d-block w-100"
+                                alt="Oferta 02 del banner">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </header>
+
+
+        <!--Texto Header-->
+        <section id="destacados" class="row justify-content-center">
+            <!--imagen del banner-->
+            <div class="banner-tit row justify-content-center">
+                <button class="btn-dstc col-8 btn btn-outline-danger">Pizzas</button>
+                <button class="btn-combos col-8 btn btn-outline-danger">Hamburguesas</button>
+                <button class="btn-all col-8 btn btn-outline-danger">Todos</button>
+            </div>
+            <!--texto del banner-->
+        </section>
+
+        <!-- Destacados -->
+        <section id="cardsContainer" class="container">
+            <div id="main"
+                class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3 justify-content-center">
+            </div>
+        </section>
+
+        <section id="locales" class="row row-cols-12 row-cols-sm-1 row-cols-md-2 g-3 justify-content-center">
+            <section id="locales-txt" class="">
+                <!-- Nuestros locales 1 -->
+                <div class="locales-txt">
+                    <!-- Division locales 1 -->
+                    <div class="locales-txt">
+                        <h4><b>Ubícanos!</b></h4>
+                        <h5>Springfield<span>
+                                <h6>Gral del Aire 3311 Dorrego</h6>
+                            </span></h5>
+                    </div><!-- destacado-txt -->
+                </div>
+            </section>
+
+            </article>
+            <!-- Mapa local -->
+            <article class="mapa">
+                <div id="map" class="mapa-img"></div>
+                <!-- mapa-img -->
+            </article>
+        </section>
+
+    </div><!-- Envoltorior -->
+    <!-- Footer -->
+    <footer class="footer-total text-center text-lg-start bg-light text-muted">
+        <section class="d-flex justify-content-center p-4 border-bottom">
+            <div class="justify-content-center">
+                <div class="text-uppercase fw-bold mx-auto"><b>Atendemos las 24 Horas</b></div>
+                <div class="container row">
+                    <div class="BarrasIT01 col-4"></div>
+                    <div class="BarrasIT02 col-4"></div>
+                    <div class="BarrasIT03 col-4"></div>
+                </div>
+            </div>
+        </section>
+        <section class="">
+            <div class="container justify-content-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-4 col-lg-5 col-xl-6 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Cobertura sin costo adicional</h6>
+                        <p>
+                            San Miguel <br>
+                            Pueblo Libre <br>
+                            Lince <br>
+                            Jesús María <br>
+                            Santa Beatriz <br>
+                            Miraflores <br>
+                            San Isidro
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contacto
+                        </h6>
+                        <p> Gral del Aire, Dorrego 3311, Springfield <br>
+                            pizzeria@tomaton.com
+                        </p>
+                        <p> + 01 234 567 88 <br>
+                            + 01 234 567 89</p>
+                        <a href="https://www.facebook.com/" class="me-4 text-reset">
+                            <img src="https://img.icons8.com/ios-glyphs/344/facebook.png" style="height: 35px;"
+                                alt="icono de facebook">
+                        </a>
+                        <a href="https://twitter.com/" class="me-4 text-reset">
+                            <img src="https://img.icons8.com/ios-glyphs/344/twitter--v1.png" style="height: 35px;"
+                                alt="icono de twitter">
+                        </a>
+                        <a href="https://www.instagram.com/" class="me-4 text-reset">
+                            <img src="https://img.icons8.com/ios-glyphs/344/instagram-new.png" style="height: 35px;"
+                                alt="icono de ig"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2022 Marco Córdova
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZqN2WXtHux08t-kDybH7MgTa4OWYfovg&callback=initMap"
+        async defer></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

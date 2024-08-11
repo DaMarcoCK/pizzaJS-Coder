@@ -1,0 +1,49 @@
+[{
+    "nombre": "CLasica",
+    "precio": "26",
+    "star": "★★★★★",
+    "imagen": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "id": 6
+},
+{
+    "nombre": "Pepinera",
+    "precio": "21",
+    "star": "★★★✩✩",
+    "imagen": "https://images.pexels.com/photos/8996/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "id": 7
+},
+{
+    "nombre": "Cardiaca",
+    "precio": "38",
+    "star": "★★★★★",
+    "imagen": "https://images.pexels.com/photos/1556698/pexels-photo-1556698.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "id": 8
+},
+{
+    "nombre": "Royal",
+    "precio": "36",
+    "star": "★★★★✩",
+    "imagen": "https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "id": 9
+},
+{
+    "nombre": "Lettucia",
+    "precio": "32",
+    "star": "★★★★★",
+    "imagen": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "id": 10
+},
+{
+    "nombre": "Mostazona",
+    "precio": "28",
+    "star": "★★★★★",
+    "imagen": "https://images.pexels.com/photos/552056/pexels-photo-552056.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+    "id": 11
+}, {
+    "nombre": "Chorrillana",
+    "precio": "35",
+    "star": "★★★★✩",
+    "imagen": "https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "id": 12
+}
+]

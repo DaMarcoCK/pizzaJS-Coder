@@ -1,0 +1,98 @@
+.menu-compras {
+    position: relative;
+}
+
+.cant-carrito {
+    padding: 1px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 58%;
+    border-radius: 50%;
+    background: red;
+    left: 60%;
+    text-align: center;
+    color: #FFF;
+    visibility: hidden;
+    text-align: center;
+    width: 1.45rem;
+    pointer-events: none;
+}
+
+.btn-carrito {
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 5px 0;
+}
+
+.active {
+    visibility: visible;
+}
+
+.myButton {
+    cursor: pointer;
+    border: none;
+    height: 3.5rem;
+    padding: 0.5rem;
+}
+
+.myButton:active {
+    background-color: red;
+}
+
+.caja-carrito-img {
+    height: 100%;
+    object-fit: cover
+}
+
+#demoSlider{
+    margin: 4.6rem 0 0;
+}
+
+.banner-tit{
+    padding: 1.5rem 0 1rem;
+    display: flex;
+}
+.banner-tit .btn{
+    margin: 0.3rem 0.4rem;
+    max-width: 10rem;
+}
+
+.star {
+    color: #FBAE17;
+    font-size: 1.4rem;
+    margin: auto;
+}
+.precio{
+    padding: 1rem 0;
+}
+#map {
+    height: 500px;
+    width: 100%;
+}
+.BarrasIT01{
+	background-color: #1A4A03;
+	height: 5px;
+	margin: auto;
+}
+.BarrasIT02{
+	background-color: #F5F6F8;
+	height: 5px;
+}
+.BarrasIT03{
+	background-color: #9A332A;
+	height: 5px;
+	margin: auto;
+}
+.footer-total{
+    margin: 1rem 0 0
+}
+#locales{
+    margin: 1rem 1.3rem;
+}
+#locales-txt{
+    display: flex;
+    align-items: center;
+}
+.btn-sumar{
+    margin: .2rem .3rem;
+}

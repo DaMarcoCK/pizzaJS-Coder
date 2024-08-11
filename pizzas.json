@@ -1,0 +1,55 @@
+[{
+        "nombre": "Peperoni",
+        "precio": "24",
+        "star": "★★★★★",
+        "imagen": "https://images.pexels.com/photos/3682837/pexels-photo-3682837.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "id": 0
+    },
+    {
+        "nombre": "Al Huevito",
+        "precio": "29",
+        "star": "★★★★✩",
+        "imagen": "https://images.pexels.com/photos/845802/pexels-photo-845802.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "id": 1
+    },
+    {
+        "nombre": "Extra Queso",
+        "precio": "32",
+        "star": "★★★★★",
+        "imagen": "https://images.pexels.com/photos/774487/pexels-photo-774487.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "id": 2
+    },
+    {
+        "nombre": "Vegetariana",
+        "precio": "33",
+        "star": "★★★✩✩",
+        "imagen": "https://images.pexels.com/photos/5254926/pexels-photo-5254926.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "id": 3
+    },
+    {
+        "nombre": "Carnivora",
+        "precio": "35",
+        "star": "★★★★★",
+        "imagen": "https://images.pexels.com/photos/2741457/pexels-photo-2741457.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "id": 4
+    },
+    {
+        "nombre": "Variada",
+        "precio": "28",
+        "star": "★★★★★",
+        "imagen": "https://images.pexels.com/photos/7813570/pexels-photo-7813570.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "id": 5
+    }, {
+        "nombre": "Cebollera",
+        "precio": "23",
+        "star": "★★★✩✩",
+        "imagen": "https://images.pexels.com/photos/5695934/pexels-photo-5695934.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "id": 5
+    }, {
+        "nombre": "Pimientera",
+        "precio": "22",
+        "star": "★★★★✩",
+        "imagen": "https://images.pexels.com/photos/2271194/pexels-photo-2271194.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "id": 5
+    }
+]
